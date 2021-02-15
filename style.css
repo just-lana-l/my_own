@@ -1,0 +1,37 @@
+@import url('/css/menu.css');
+@import url('/css/greetings.css');
+@import url('/css/about-me.css');
+@import url('/css/work.css');
+@import url('/css/skill.css');
+
+* { margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+.container {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+section {
+    padding: 50px 0;
+    border: 1px solid crimson;
+}
+h4 {
+    color: crimson;
+}
+.title {
+    padding: 20px 0;
+    color: crimson;
+    font-size: 1.5rem;
+}
+.sub-title {
+    color: crimson;
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+.list-style {
+    line-height: 1.5rem;
+    padding:5px 0 10px 45px;
+}
