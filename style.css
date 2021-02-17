@@ -1,11 +1,11 @@
-@import url('/css/menu.css');
-@import url('/css/greetings.css');
-@import url('/css/about-me.css');
-@import url('/css/work.css');
-@import url('/css/skill.css');
-@import url('/css/portfolio.css');
-@import url('/css/contacts.css');
-@import url('/css/footer.css');
+@import url('./css/menu.css');
+@import url('./css/greetings.css');
+@import url('./css/about-me.css');
+@import url('./css/work.css');
+@import url('./css/skill.css');
+@import url('./css/portfolio.css');
+@import url('./css/contacts.css');
+@import url('./css/footer.css');
 
 * {
     margin: 0;
