@@ -1,41 +1,13 @@
-
-  /* Create four equal columns that floats next to each other */
-  .column {
-    border: 1px solid orange;
-    float: left;
-    width: 33%;
-  }
-  
-
-  
-  /* Content */
-  .content {
-    background-color:crimson;
-    padding: 10px;
-    border: 1px solid violet;
-  }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
-    .column {
-      width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
-
   .portfolio__item {
-      flex: 0 0 350px;
+      flex: 0 0 330px;
+      padding: 10px;
+      margin: 5px;
   }
-
+  .portfolio__item ul {
+    list-style-type: none;
+  }
   .portfolio__wrap {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      
   }

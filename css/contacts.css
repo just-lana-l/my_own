@@ -1,0 +1,10 @@
+.contacts {
+    height: 30vh;
+    padding: 25px;
+}
+ul li {
+    list-style-type: none;
+}
+p {
+    padding: 10px 0;
+}

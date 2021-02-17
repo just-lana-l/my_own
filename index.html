@@ -11,39 +11,53 @@
 </head>
 <body>
     <header>
-        <nav>
+        <div class="container">
+            <nav>
             <ul> 
                 <li><a href="#">Навыки</a></li>
                 <li><a href="#">Опыт работы</a></li>
                 <li><a href="#">Портфолио</a></li>
+                <li><img src="./img/Github.svg" alt="github"> </li>
+                <li><img src="./img/mail-5.svg" alt="github"> </li>
+                <li><img src="./img/Telegram.svg" alt="github"></li>
             </ul>
-        </nav>
+            </nav>
+        </div>
     </header>
-    <section class="greetings">
-        <div class="container">
+
+    <div class="container">
+        <section class="greetings">
             <div class="greetings__content">
                 <div class="greetings__descr">
-                    <h1>
-                        Привет!<br>
-                        Меня зовут Светлана<br>
-                        И я junior верстальщик / front-end dev
-                    </h1>  
+                    <div class="greetings__avatar">
+                        <img src="./img/ava.jpg" alt="Lana L">
+                    </div> 
+                    <div class="greetingx__text">
+                        <h1>
+                            Привет!<br>
+                            Меня зовут <span class="crimson"> Светлана</span><br>
+                            И я junior верстальщик / front-end dev
+                        </h1>
+                    </div>
                 </div>
-                <div class="greetings__avatar">
+            </div>  
+        </section> 
+    </div>
 
-                </div>  
-            </div>
-        </div>   
-    </section> 
-    
-    <section class="about-me"> 
-        <div class="container">
+    <div class="container">
+        <section class="about-me"> 
             <div class="about-me__descr">
-                <h3 class=" about-me__title title">Обо мне</h3>
-                
+                <h3 class="about-me__title title">Обо мне</h3>
                 <p>После 4 лет в тестировании я решила сменить специальность и перейти во front-end. 
                     Да, пока еще я много не знаю, и много в чем не разбираюсь, но я стараюсь и у меня есть огромное желание развиваться в этом направлении.
                 </p>   
+                <p>
+                    Можно заметить, что на страничке очень мало украшательств и разных свистелок, блестелок. Я решила, что минимализм и простота не будут отвелкать от главного. От информации, которой я хочу поделиться.
+                </p>
+                <p>
+                    Конечно, возможно сделовало сделать много красивой css и js анимации, ведь это моя страница, и вы должны видеть, что я умею. Но если вы захотите, узнать, что я умею, то вы можете прислать мне тестовое задание. Еще у меня есть открытые проекты
+                    на гитхабе, где можно посмотреть пример верстки. 
+                </p>
                 <h4 class="sub-title">Чем я могу быть полезна</h4>
                 <ul class="list-style">
                     <li>Могу сверстать лендинг</li>
@@ -53,17 +67,16 @@
                     <li>Протестировать онлайн-магазин по разным кейсам, а так же протестировать систему оплаты</li>
                     <li>Протестировать API (Postman/ SoapUI)</li>
                 </ul>
-
-                <div>
-                    <p>Скачать резюме</p>
+                <div class="download">
+                    <a href="./Ломтева Светлана Валерьевна.pdf" download="./Ломтева Светлана Валерьевна.pdf"> Скачать резюме</a>
                 </div>
             </div>
-        </div>
-    </section>    
+        </section>    
+    </div>
 
-    <section class="work">
-        <div class="container">
-                <h3 class="title">Опыт работы</h3>
+    <div class="container">
+        <section class="work">
+            <h3 class="work__title title">Опыт работы</h3>
                 <div class="work__wrap">
                     <div class="work__title">
                         <p class="work__title-company">7тек  Москва / Manual QA Engineer / nov 2019 - oct 2020</p>
@@ -122,16 +135,16 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
-    <section class="skill">
-        <div class="container">
+    <div class="container">
+        <section class="skill">
             <h3 class="skill__title title">Навыки</h3>
                 <div class="skill__content">
+
                     <div class="skill__content-item">
-                        <h4>Тестирование</h4>
+                        <h4 class="skill__content-title">Тестирование</h4>
                         <ul class="list-style">
                             <li>Web-сервисы/web-приложения</li>
                             <li>настольные приложения</li>
@@ -164,91 +177,87 @@
                             <li>Портфолио на shutterstoсk</li>
                        </ul>
                     </div>
-                </div>
-        </div>        
-    </section>
-    
-    <section class="portfolio">
-        <div class="container">
+                </div> 
+        </section>
+    </div>    
+
+    <div class="container">
+        <section class="portfolio">
+            <h3 class="portfolio__title title">Портфолио</h3>
             <div class="portfolio__wrap">
-                <div class="portfolio__item">
-                    <img src="/img/omnifood.png" alt="Omnifood" style="width:100%">
-                    <h3>Omnifood</h3>
-                    <p>Небольшой лендинг пейдж для сервиса по доставке еды с контактной формой и фиксированным меню. 
+                    <div class="portfolio__item">
+                        <img src="/img/omnifood.png" alt="Omnifood" style="width:100%">
+                        <h3 class="crimson">Omnifood</h3>
+                        <p>Небольшой лендинг пейдж для сервиса по доставке еды с контактной формой и фиксированным меню. 
                          Сделан на чистом HTML и CSS. </p>
-                </div>
+                    </div>
+                
+                    <div class="portfolio__item">
+                        <img src="/img/teo.png" alt="Natours" style="width:100%">
+                        <h3 class="crimson">Personal site for teacher</h3>
+                        <p>Личный сайт учителя
+                            <ul>
+                                <li>HTML/CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </p>
+                    </div>
 
-                <div class="portfolio__item">
-                    <img src="/img/natours.png" alt="Natours" style="width:100%">
-                    <h3>Natours</h3>
-                    <p>Лендинг компании которая организовывает туристические походы.
-                        <ul>
-                            <li>HTML 5/ CSS 3</li>
-                            <li>CSS анимация</li>
-                        </ul>
-                    </p>
-                </div>
+                    <div class="portfolio__item">
+                        <img src="/img/natours.png" alt="Natours" style="width:100%">
+                        <h3 class="crimson">Natours</h3>
+                        <p>Лендинг компании которая организовывает туристические походы.
+                            <ul>
+                                <li>HTML 5/ CSS 3</li>
+                                <li>CSS анимация</li>
+                            </ul>
+                        </p>
+                    </div>
 
-                <div class="portfolio__item">
-                    <img src="/img/umnikus.jpg" alt="Umnikus" style="width:100%">
-                    <h3>Umnikus</h3>
-                    <p>Разработка логотипа и дизайна для детского сада Maxi Kids</p>
-                </div>
+                    <div class="portfolio__item">
+                        <img src="/img/umnikus.jpg" alt="Umnikus" style="width:100%">
+                        <h3 class="crimson">Umnikus</h3>
+                        <p>Разработка логотипа и дизайна для детского сада Maxi Kids</p>
+                    </div>
 
-                <div class="portfolio__item">
-                    <img src="/img/maxikids.jpg" alt="MaxiKids" style="width:100%">
-                    <h3>MaxiKids</h3>
-                    <p>Разработка логотипа и дизайна для детского центра развития и подготовке к школе "Умникус"</p>
-                </div>
+                    <div class="portfolio__item">
+                        <img src="/img/maxikids.jpg" alt="MaxiKids" style="width:100%">
+                        <h3 class="crimson">MaxiKids</h3>
+                        <p>Разработка логотипа и дизайна для детского центра развития и подготовке к школе "Умникус"</p>
+                    </div>
+            </div>  
+        </section>
+    </div>
 
-                <div class="portfolio__item">
-                    <img src="/img/screenshot-just-lana-l-github-io-Natours-1613484236045.png" alt="Natours" style="width:100%">
-                    <h3>Sberboy</h3>
-                    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-                </div>
+    <div class="container">
+        <section class="contacts">
+            <h3 class="contacts__title title">Контакты</h3>
+            <p>
+                Со мной можно связаться разными способами:
+                <ul>
+                    <li>Написать письмо на почту <a href="mailto:svetlana.lomteva@gmail.com">svetlana.lomteva@gmail.com</a></li>
+                    <li> Связаться через <a href="https://t.me/the_mad_lana">Telegram</a> </li>
+                </ul>
+            </p>
+            <p>
+                Мой профиль на <a href="https://github.com/just-lana-l">github</a>, пока что там не очень много всего, но посмотреть исходный код нескольких моих проектов можно.
+            </p>
+            <p>
+                Можно позвонить по номеру телефона указанному в резюме, но к сожалению, в связи с тем, что количество телефонного спама стало слишком огромное и не адеватное, 
+                лучше связаться со мной письменно.
+            </p>
+        </section>
+    </div>
 
-
-
+    <div class="container">
+        <footer>
+            <div>
+                <img src="./img/Github.svg" alt="github">
+                <img src="./img/mail-5.svg" alt="github">
+                <img src="./img/Telegram.svg" alt="github">
             </div>
-
-            <!-- Portfolio Gallery Grid 
-<div class="row">
-    <div class="column">
-      <div class="content">
-        
-        
-      </div>
+        </footer>
     </div>
-    <div class="column">
-      <div class="content">
-      <img src="/img/screenshot-just-lana-l-github-io-OmniFood-1613484186497.png" alt="Lights" style="width:100%">
-        <h3>My Work</h3>
-        <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-      </div>
-    </div>
-    <div class="column">
-      <div class="content">
-      <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
-        <h3>My Work</h3>
-        <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-      </div>
-    </div>
-   END GRID -->
-  </div>-->
-
-        </div>
-    </section>
-    
-    <section class="contacts">
-        
-    </section>
-    
-    <footer>
-        
-    </footer>
-
- Свяжитесь со мной если у вас остались вопросы
-
 
 </body>
 </html>

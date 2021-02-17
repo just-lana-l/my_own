@@ -4,35 +4,58 @@
 @import url('/css/work.css');
 @import url('/css/skill.css');
 @import url('/css/portfolio.css');
+@import url('/css/contacts.css');
+@import url('/css/footer.css');
 
-* { margin: 0;
+* {
+    margin: 0;
     padding: 0;
     font-family: 'Source Code Pro', monospace;
 }
+
 .container {
+    background-color: white;
     margin: 0 auto;
-    width: 1100px;
+    width: 1170px;
+    padding: 15px;
 }
 
 section {
-    padding: 50px 0;
     border: 1px solid crimson;
 }
-h4 {
+h4, .crimson {
     color: crimson;
 }
 .title {
-    padding: 20px 0;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
     color: crimson;
-    font-size: 1.5rem;
-}
-.sub-title {
-    color: crimson;
-    font-size: 18px;
-    padding: 5px 0;
 }
 
 .list-style {
+    list-style-type: none;
     line-height: 1.5rem;
     padding:5px 0 10px 45px;
+}
+
+.download {
+    position: relative;
+    top: 30px;
+    left: 45px;
+    border-radius: 5px;
+    background-color: crimson;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+
+.download a {
+    display: block;
+    padding-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
 }

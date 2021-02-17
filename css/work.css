@@ -1,8 +1,20 @@
 
 .work__title-company {
-    font-size: 20px;
+    padding-left: 45px;
+    font-size: 18px;
     color: crimson;
-    font-weight: 600;
+}
+
+.work__title-company::before {
+    position: relative;
+    top: 20px;
+    right: 25px;
+    display: block;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background: crimson;
 }
 
 .work__wrap {
